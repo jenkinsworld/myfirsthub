@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 tag=git describe --abbrev=0 --tags| cut -d '.' -f 3
 min_ver= tag | cut -d '.' -f 3
 inc_ver=val+1
